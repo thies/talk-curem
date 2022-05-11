@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Thies Lindenthal: Äussere Werte — Schönheit und Immobilienpreise</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<link rel="stylesheet" href="tweaks.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-background-image="imgs/clare_small.jpg">
+						<h2><span class="darkonlight">&nbsp;Äussere Werte&nbsp;</span></h2>
+
+						<h2><span class="subtitle darkonlight">&nbsp;Schönheit und Immobilienpreise&nbsp;</span></h2>
+
+						<h2><span class="subtitle darkonlight">&nbsp;Dr. Thies Lindenthal&nbsp;</span></h2>
+						<p><span class="subtitle darkonlight">&nbsp;Department of Land Economy / University of Cambridge&nbsp;</span><br>
+						<span class="subtitle darkonlight">&nbsp;E-mail: htl24@cam.ac.uk / Twitter: @ThiesLindenthal&nbsp;</span></p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+			</section>
+
+
+			<section data-markdown data-background-image="imgs/epl_wide.jpg">
+				<textarea data-template>
+					## &Auml;sthetik<br>&bdquo;sehen&#8220;<span class="subtitle"><br/></span>
+					Note:
+				</textarea>
+			</section>
+
+
+				<section data-markdown >
+					<textarea data-template>
+						## Eine Stadt erkunden<span class="subtitle"><br/>Visuelle Informationen zu Geb&auml;uden, R&auml;umen, Menschen,... </span>
+						<iframe data-src="https://www.google.com/maps/embed?pb=!4v1615400218848!6m8!1m7!1sfrGO3071bDjlMFWKCuPROg!2m2!1d52.20218228800385!2d0.116240823654906!3f214.30357533449632!4f12.499881249341925!5f0.7820865974627469" data-preload width="900" height="500"></iframe>
+						Note:
+
+						* Wie lassen sich ästhetische Faktoren computergestützt erfassen?
+						* Wie beeinflussen ästhetische Faktoren den Wert einer Immobilie?
+						* Google Street View als  Sensor bei der automatisierten Wertermittlung.
+						* One size fits all? Wie individuell sind ästhetische Präferenzen bei Immobilien? Wie beeinflusst heterogene Nachfrage Preise und Liquidität?
+
+					</textarea>
+				</section>
+
+
+				<section class="white" data-background-color="#ffffff">
+					<h2>&bdquo;sehen&#8220;  automatisieren?<span class="subtitle"><br />Bilderkennung + ML-Klassifizierung + trad. &Ouml;konometrie<br /></span></h2>
+					<img src="imgs/research_feature_vectors.png">
+				</section>
+
+			<section data-markdown data-background-image="imgs/map_romsey.jpeg" >
+				<textarea data-template>
+					## <span class="darkonlight">Baustile erkennen</span><br><span class="subtitle darkonlight">basierend auf Google Street View</span>
+
+					<p class="centred"><img src="imgs/romsey_road.jpg" height=450></p>
+				</textarea>
+			</section>
+
+
+
+				<section data-markdown data-background-image="imgs/leon.jpg" >
+					<textarea data-template>
+
+						## <span class="darkonlight">H&ouml;here Preise...</span> <span class="subtitle darkonlight"><br>...f&uuml;r historisierende Stile? Nein.</span>
+						* <span class="darkonlight">Proof-of-concept: <a href="https://link.springer.com/article/10.1007/s11146-021-09845-1">Lindenthal & Johnson (2021)</a></span>
+
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+
+					</textarea>
+				</section>
+
+
+				<section data-markdown >
+					<textarea data-template>
+						## Blind vertrauen?<span class="subtitle"><br/>Was passiert unter der ML-Haube?</span>
+
+						<p class="centred"><img src="imgs/house_cars.jpg" height=400><br><span class="source">Diskussions-Paper: </span><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4031891" class="source">Lindenthal &amp; Wan (2022)</a>
+					</textarea>
+				</section>
+
+
+				<section data-markdown data-background-video="imgs/PXL_20210310_232954432.mp4" data-background-video-loop data-background-video-muted>
+					<textarea data-template>
+						## <span class="transparent70">Alles Geschmacksache? </span><span class=" transparent70 subtitle"><br/>Wie unterschiedlich sind &auml;sthetische Vorlieben?</span>
+
+						* <span class="transparent70">Mitmachen? https://4walls.cremll.com</span>
+
+					</textarea>
+				</section>
+
+
+				<section data-markdown>
+					<textarea data-template>
+						## Unglaubliche Vielfalt!<span class="subtitle"><br/>Wir hatten mehr &Uuml;bereinstimmungen erwartet<br>&mdash;aber &uuml;ber Geschmack l&auml;sst sich streiten.</span>
+						<img src="imgs/hist_likes_training_data_many_responses.png" height="400">
+					</textarea>
+				</section>
+
+
+
+				<section data-markdown>
+					<textarea data-template>
+						## Oft gemocht<span class="subtitle"><br/>Gr&uuml;n, hohe Bauqualit&auml;t, historisch</span>
+						<img src="imgs/example_like.png" height="500">
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Eher nicht<span class="subtitle"><br/>Vernachl&auml;ssigt, billige Materialien, vermischte Stile</span>
+						<img src="imgs/example_dislike.png" height="500">
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Viele Widerspr&uuml;che<span class="subtitle"><br/>Die wirklich interessanten F&auml;lle</span>
+						<img src="imgs/example_mixed.png" height="500">
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-image="imgs/nf.jpg">
+					<textarea data-template>
+						## <span class="transparent70">(Immobilien-)Geschmack...</span><span class="subtitle transparent70"><br/>...ist pers&ouml;nlich!</span>
+
+						* <span class="transparent70">&ldquo;One size fits all?&rdquo; Teilweise.</span>
+							- B&auml;me, hochwertige Materialien, Baudichte
+						* <span class="transparent70">ML-Modelle k&ouml;nnen pers&ouml;nliche Pr&auml;ferenzen zuverl&auml;ssig vorhersagen.</span>
+						 	- <span class="transparent70">&ldquo;Aesthetic Preferences for Residential Architecture: Finding Ground Truth with Machine Learning&rdquo; ([Link](http://www.lindenthal.eu/assets/papers/Lindenthal,%20Schmidt%20and%20Wan%20-%20Aesthetic%20Preferences%20for%20Residential%20Architecture.pdf))
+					</textarea>
+				</section>
+
+
+				<section data-markdown data-background-image="imgs/door.jpg">
+					<textarea data-template>
+						## Mensch/<br>Maschine<span class="subtitle"><br/>ML-Modelle sind Blackboxes<br>&mdash;aber sind konsistent.</span>
+						* Menschen &auml;ndern ihre Meinungen,<br>lassen sich ablenken, lernen.
+						* Personalisierte ML-Modelle<br>sind echte &ldquo;digital twins&rdquo;.
+						* Im Vergleich mit ihnen k&ouml;nnen wir<br>die Blackbox zwischen unseren<br>Ohren besser verstehen.
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'none',
+				math: {
+					mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					// pass other options into `MathJax.Hub.Config()`
+					TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
